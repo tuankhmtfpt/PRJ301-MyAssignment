@@ -9,14 +9,34 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit thi
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <style>
-            table, td, th {
-                border: 1px solid black;
+            table {
+                text-align: left;
+                position: relative;
                 border-collapse: collapse;
-                vertical-align: top;
-
+                background-color: #f6f6f6;
+            }/* Spacing */
+            td, th {
+                border: 1px solid #999;
+                padding: 20px;
             }
             th {
-                text-align: left;
+                background: brown;
+                color: white;
+                border-radius: 0;
+                position: sticky;
+                top: 0;
+                padding: 10px;
+            }
+            .primary{
+                background-color: #000000
+            }
+
+            tfoot > tr  {
+                background: black;
+                color: white;
+            }
+            tbody > tr:hover {
+                background-color: #ffc107;
             }
         </style>
     </head>
@@ -143,7 +163,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit thi
                         <td>sonnt5</td>
                         <td>19/01/2022</td>
                     </tr>
-                    
+
                     <tr>
                         <td>9</td>
                         <td><a href="">Group</a></td>
@@ -155,7 +175,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit thi
                         <td>sonnt5</td>
                         <td>19/01/2022</td>
                     </tr>
-                    
+
                     <tr>
                         <td>10</td>
                         <td><a href="">Group</a></td>
@@ -167,8 +187,8 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit thi
                         <td>sonnt5</td>
                         <td>19/01/2022</td>
                     </tr>
-                    
-                    
+
+
                     <tr>
                         <td>11</td>
                         <td><a href="">Group</a></td>
@@ -180,7 +200,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit thi
                         <td>sonnt5</td>
                         <td>19/01/2022</td>
                     </tr>
-                    
+
                     <tr>
                         <td>12</td>
                         <td><a href="">Group</a></td>
@@ -192,7 +212,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit thi
                         <td>sonnt5</td>
                         <td>19/01/2022</td>
                     </tr>
-                    
+
                     <tr>
                         <td>13</td>
                         <td><a href="">Group</a></td>
